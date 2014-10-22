@@ -41,7 +41,7 @@ struct click_radiotap_header {
 	struct ieee80211_radiotap_header wt_ihdr;
 	u_int8_t	wt_rate;
 	u_int8_t	wt_txpower;
-	u_int8_t	wt_tx_flags;
+	u_int16_t	wt_tx_flags;
 	u_int8_t        wt_rts_retries;
 	u_int8_t        wt_data_retries;
 };
